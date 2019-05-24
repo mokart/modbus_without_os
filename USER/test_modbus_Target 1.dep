@@ -1,0 +1,304 @@
+Dependencies for Project 'test_modbus', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_hd.s)(0x532BB241)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include --list "..\OBJ\startup_stm32f10x_hd.lst" --xref -o "..\OBJ\startup_stm32f10x_hd.o" --depend "..\OBJ\startup_stm32f10x_hd.d")
+F (.\test.c)(0x5CE7A1E5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\test.o" --omf_browse "..\OBJ\test.crf" --depend "..\OBJ\test.d")
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\usart\usart.h)(0x5CE77918)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (..\SYSTEM\delay\delay.h)(0x50BF2542)
+I (..\HARDWARE\LED\led.h)(0x5317183E)
+I (..\HARDWARE\KEY\key.h)(0x5317E8E7)
+I (..\MODBUS\modbus\include\mb.h)(0x5BE26665)
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+I (..\MODBUS\modbus\include\mbport.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbproto.h)(0x45782EEA)
+F (..\SYSTEM\delay\delay.c)(0x5CE77B16)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\delay.o" --omf_browse "..\OBJ\delay.crf" --depend "..\OBJ\delay.d")
+I (..\SYSTEM\delay\delay.h)(0x50BF2542)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\sys\sys.c)(0x52BC4394)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\sys.o" --omf_browse "..\OBJ\sys.crf" --depend "..\OBJ\sys.d")
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\usart\usart.c)(0x5CE77B8A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\usart.o" --omf_browse "..\OBJ\usart.crf" --depend "..\OBJ\usart.d")
+I (..\SYSTEM\usart\usart.h)(0x5CE77918)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+F (..\HARDWARE\LED\led.c)(0x5CE780F3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\led.o" --omf_browse "..\OBJ\led.crf" --depend "..\OBJ\led.d")
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\LED\led.h)(0x5317183E)
+F (..\HARDWARE\USART2\usart2.c)(0x5CE77DDA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\usart2.o" --omf_browse "..\OBJ\usart2.crf" --depend "..\OBJ\usart2.d")
+I (..\HARDWARE\USART2\usart2.h)(0x5CE649EC)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+F (..\MODBUS\modbus\mb.c)(0x5CE67232)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\mb.o" --omf_browse "..\OBJ\mb.crf" --depend "..\OBJ\mb.d")
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+I (..\MODBUS\modbus\include\mb.h)(0x5BE26665)
+I (..\MODBUS\modbus\include\mbport.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbproto.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbconfig.h)(0x4B988B1E)
+I (..\MODBUS\modbus\include\mbframe.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbfunc.h)(0x45782EEA)
+I (..\MODBUS\modbus\rtu\mbrtu.h)(0x45782EEA)
+F (..\MODBUS\modbus\rtu\mbcrc.c)(0x45D883D4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\mbcrc.o" --omf_browse "..\OBJ\mbcrc.crf" --depend "..\OBJ\mbcrc.d")
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+F (..\MODBUS\modbus\rtu\mbrtu.c)(0x5CE79507)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\mbrtu.o" --omf_browse "..\OBJ\mbrtu.crf" --depend "..\OBJ\mbrtu.d")
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\SYSTEM\usart\usart.h)(0x5CE77918)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+I (..\MODBUS\modbus\include\mb.h)(0x5BE26665)
+I (..\MODBUS\modbus\include\mbport.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbproto.h)(0x45782EEA)
+I (..\MODBUS\modbus\rtu\mbrtu.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbframe.h)(0x45782EEA)
+I (..\MODBUS\modbus\rtu\mbcrc.h)(0x45782EEA)
+F (..\MODBUS\modbus\functions\mbfunccoils.c)(0x45D88314)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\mbfunccoils.o" --omf_browse "..\OBJ\mbfunccoils.crf" --depend "..\OBJ\mbfunccoils.d")
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+I (..\MODBUS\modbus\include\mb.h)(0x5BE26665)
+I (..\MODBUS\modbus\include\mbport.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbproto.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbframe.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbconfig.h)(0x4B988B1E)
+F (..\MODBUS\modbus\functions\mbfuncdiag.c)(0x45782EEA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\mbfuncdiag.o" --omf_browse "..\OBJ\mbfuncdiag.crf" --depend "..\OBJ\mbfuncdiag.d")
+F (..\MODBUS\modbus\functions\mbfuncdisc.c)(0x45D88342)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\mbfuncdisc.o" --omf_browse "..\OBJ\mbfuncdisc.crf" --depend "..\OBJ\mbfuncdisc.d")
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+I (..\MODBUS\modbus\include\mb.h)(0x5BE26665)
+I (..\MODBUS\modbus\include\mbport.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbproto.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbframe.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbconfig.h)(0x4B988B1E)
+F (..\MODBUS\modbus\functions\mbfuncholding.c)(0x45D88356)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\mbfuncholding.o" --omf_browse "..\OBJ\mbfuncholding.crf" --depend "..\OBJ\mbfuncholding.d")
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+I (..\MODBUS\modbus\include\mb.h)(0x5BE26665)
+I (..\MODBUS\modbus\include\mbport.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbproto.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbframe.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbconfig.h)(0x4B988B1E)
+F (..\MODBUS\modbus\functions\mbfuncinput.c)(0x5675153A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\mbfuncinput.o" --omf_browse "..\OBJ\mbfuncinput.crf" --depend "..\OBJ\mbfuncinput.d")
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+I (..\MODBUS\modbus\include\mb.h)(0x5BE26665)
+I (..\MODBUS\modbus\include\mbport.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbproto.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbframe.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbconfig.h)(0x4B988B1E)
+F (..\MODBUS\modbus\functions\mbfuncother.c)(0x5BE2875D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\mbfuncother.o" --omf_browse "..\OBJ\mbfuncother.crf" --depend "..\OBJ\mbfuncother.d")
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+I (..\MODBUS\modbus\include\mb.h)(0x5BE26665)
+I (..\MODBUS\modbus\include\mbport.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbproto.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbframe.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbconfig.h)(0x4B988B1E)
+F (..\MODBUS\modbus\functions\mbutils.c)(0x5CE63913)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\mbutils.o" --omf_browse "..\OBJ\mbutils.crf" --depend "..\OBJ\mbutils.d")
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+I (..\MODBUS\modbus\include\mb.h)(0x5BE26665)
+I (..\MODBUS\modbus\include\mbport.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbproto.h)(0x45782EEA)
+F (..\MODBUS\modbus\ascii\mbascii.c)(0x45D882F8)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\mbascii.o" --omf_browse "..\OBJ\mbascii.crf" --depend "..\OBJ\mbascii.d")
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+I (..\MODBUS\modbus\include\mb.h)(0x5BE26665)
+I (..\MODBUS\modbus\include\mbport.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbproto.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbconfig.h)(0x4B988B1E)
+I (..\MODBUS\modbus\ascii\mbascii.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbframe.h)(0x45782EEA)
+I (..\MODBUS\modbus\rtu\mbcrc.h)(0x45782EEA)
+F (..\MODBUS\port\port.c)(0x5B9A299B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\port.o" --omf_browse "..\OBJ\port.crf" --depend "..\OBJ\port.d")
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+F (..\MODBUS\port\portevent.c)(0x462E2D16)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\portevent.o" --omf_browse "..\OBJ\portevent.crf" --depend "..\OBJ\portevent.d")
+I (..\MODBUS\modbus\include\mb.h)(0x5BE26665)
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+I (..\MODBUS\modbus\include\mbport.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbproto.h)(0x45782EEA)
+F (..\MODBUS\port\portserial.c)(0x5CE79D59)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\portserial.o" --omf_browse "..\OBJ\portserial.crf" --depend "..\OBJ\portserial.d")
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+I (..\HARDWARE\USART2\usart2.h)(0x5CE649EC)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (..\MODBUS\modbus\include\mb.h)(0x5BE26665)
+I (..\MODBUS\modbus\include\mbport.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbproto.h)(0x45782EEA)
+F (..\MODBUS\port\porttimer.c)(0x5CE7A9C4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 -I C:\Keil_v4\ARM\RV31\INC -I C:\Keil_v4\ARM\CMSIS\Include -DSTM32F10X_HD -DNDEBUG -o "..\OBJ\porttimer.o" --omf_browse "..\OBJ\porttimer.crf" --depend "..\OBJ\porttimer.d")
+I (..\MODBUS\port\port.h)(0x5CE67577)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50062982)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h)(0x4EB0D280)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB0D284)
+I (..\MODBUS\modbus\include\mb.h)(0x5BE26665)
+I (..\MODBUS\modbus\include\mbport.h)(0x45782EEA)
+I (..\MODBUS\modbus\include\mbproto.h)(0x45782EEA)

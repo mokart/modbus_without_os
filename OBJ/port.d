@@ -1,0 +1,11 @@
+..\OBJ\port.o: ..\MODBUS\port\port.c
+..\OBJ\port.o: ..\MODBUS\port\port.h
+..\OBJ\port.o: ..\SYSTEM\sys\sys.h
+..\OBJ\port.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\port.o: C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\port.o: C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\port.o: C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\port.o: C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\port.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\port.o: C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h
+..\OBJ\port.o: C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h

@@ -1,0 +1,15 @@
+..\OBJ\porttimer.o: ..\MODBUS\port\porttimer.c
+..\OBJ\porttimer.o: ..\MODBUS\port\port.h
+..\OBJ\porttimer.o: ..\SYSTEM\sys\sys.h
+..\OBJ\porttimer.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\porttimer.o: C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\porttimer.o: C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\porttimer.o: C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\porttimer.o: C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\porttimer.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\porttimer.o: C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h
+..\OBJ\porttimer.o: C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h
+..\OBJ\porttimer.o: ..\MODBUS\modbus\include\mb.h
+..\OBJ\porttimer.o: ..\MODBUS\port\port.h
+..\OBJ\porttimer.o: ..\MODBUS\modbus\include\mbport.h
+..\OBJ\porttimer.o: ..\MODBUS\modbus\include\mbproto.h

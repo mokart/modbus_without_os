@@ -1,0 +1,17 @@
+..\OBJ\portserial.o: ..\MODBUS\port\portserial.c
+..\OBJ\portserial.o: ..\MODBUS\port\port.h
+..\OBJ\portserial.o: ..\SYSTEM\sys\sys.h
+..\OBJ\portserial.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\portserial.o: C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h
+..\OBJ\portserial.o: C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\portserial.o: C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h
+..\OBJ\portserial.o: C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h
+..\OBJ\portserial.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\portserial.o: C:\Keil_v4\ARM\ARMCC\bin\..\include\assert.h
+..\OBJ\portserial.o: C:\Keil_v4\ARM\ARMCC\bin\..\include\inttypes.h
+..\OBJ\portserial.o: ..\HARDWARE\USART2\usart2.h
+..\OBJ\portserial.o: C:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h
+..\OBJ\portserial.o: ..\MODBUS\modbus\include\mb.h
+..\OBJ\portserial.o: ..\MODBUS\port\port.h
+..\OBJ\portserial.o: ..\MODBUS\modbus\include\mbport.h
+..\OBJ\portserial.o: ..\MODBUS\modbus\include\mbproto.h

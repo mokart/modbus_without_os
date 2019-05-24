@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\MODBUS -I..\MODBUS\modbus\ascii -I..\MODBUS\modbus\functions -I..\MODBUS\modbus\rtu -I..\MODBUS\port -I..\MODBUS\modbus\include -I..\HARDWARE\USART2 
+-I C:\Keil_v4\ARM\RV31\INC 
+-I C:\Keil_v4\ARM\CMSIS\Include 
+-DSTM32F10X_HD -DNDEBUG -o "..\OBJ\mbfuncdiag.o" --omf_browse "..\OBJ\mbfuncdiag.crf" --depend "..\OBJ\mbfuncdiag.d" "..\MODBUS\modbus\functions\mbfuncdiag.c"
